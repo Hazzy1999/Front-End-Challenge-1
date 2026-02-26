@@ -1,1 +1,11 @@
+body {
+  background-color: lightblue; /* You can use color names, HEX, RGB, etc. */
+}
 
+/* Or use a background image */
+body {
+  background-image: url('background.jpg'); /* Path to your image */
+  background-size: cover;       /* Make the image cover the whole page */
+  background-repeat: no-repeat; /* Don’t repeat the image */
+  background-position: center;  /* Center the image */
+}
